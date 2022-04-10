@@ -1,0 +1,25 @@
+body {
+  font-family: montserrat;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+}
+nav li a {
+  text-decoration: none;
+  color: #242424;
+}
+nav li:hover {
+  background-color: #d5c4fd;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+nav > ul > li:hover > ul {
+  display: block;
+}
+.dropdown {
+  display: none;
+}
